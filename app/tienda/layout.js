@@ -9,7 +9,7 @@ export default function TiendaLayout({children}){
 
                 <ul>
                     <li><Link href="/tienda/categoria">Categoria</Link></li>
-                    <li><Link href="/tienda/categoria/computadoras">Productos</Link></li>
+                    <li><Link href="/tienda/categoria/computadoras">Computadoras</Link></li>
 
                 </ul>
             </nav>
