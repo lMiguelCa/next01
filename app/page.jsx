@@ -1,6 +1,7 @@
 /*"use client"*/
+/*"use client"
+import { useState } from "react"*/
 "use client"
-import { useState } from "react"
 
 export default function HomePage(){
     return <section>
@@ -10,5 +11,9 @@ export default function HomePage(){
             alert('Hola')
        }}>          Click
         </button>*/} 
+
+        {
+            window.localStorage.getItem('token')
+        }
     </section>
 }
