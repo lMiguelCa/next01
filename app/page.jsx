@@ -3,6 +3,8 @@
 import { useState } from "react"*/
 "use client"
 
+import Users from "../components/Users"
+
 export default function HomePage(){
     return <section>
         <h1>Hola shupapi</h1>
@@ -15,5 +17,6 @@ export default function HomePage(){
         {
             window.localStorage.getItem('token')
         }
+        <Users/>
     </section>
 }
