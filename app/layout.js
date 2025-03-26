@@ -15,8 +15,7 @@ const roboto = Roboto({
 })
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-
+    <html>
       <body className={roboto.className}>
         <NavbarPage/>
         {children}
