@@ -3,7 +3,7 @@
 import { useState } from "react"*/
 /*"use client"*/
 
-import Users from "../components/Users"
+import Users from "@/components/Users"
 export const metadata ={
     title: 'Mi pagina especial HOme'
 }

@@ -1,4 +1,4 @@
-import NavbarPage from '../components/Navbar';
+import NavbarPage from '@/components/Navbar';
 import {Roboto} from 'next/font/google'
 
 
